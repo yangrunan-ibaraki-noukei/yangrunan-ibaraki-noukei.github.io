@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Runan Yang"
 title_separator          : "-"
-name                     : "Runan (楊) Yang"
+name                     : "Runan Yang"
 description              : "Urban agriculture • Branding • Consumer behavior • Sustainability"
 url                      : "https://yangrunan-ibaraki-noukei.github.io"
 baseurl                  : ""
@@ -23,8 +23,8 @@ repository               : "yangrunan-ibaraki-noukei/yangrunan-ibaraki-noukei.gi
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Runan (楊) Yang"
-  pronouns         : # example: "she/her"  
+  name             : "Runan Yang"
+  pronouns         : "Assistant Professor"  
   bio              : "Urban agriculture • Branding • Consumer behavior • Sustainability"
   location         : "Ibaraki, Japan"
   employer         : "Ibaraki University"
@@ -33,21 +33,19 @@ author:
 
   # Academic websites  
   orcid            : "https://orcid.org/0000-0002-8081-8923"
-  researchmap      : "https://researchmap.jp/runan-yang"
   github           : "yangrunan-ibaraki-noukei"
-  bluesky          : # 不是用户名；没有就留空
 
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # researchmap
+  links:
+    - label: "researchmap"
+      icon: "fas fa-link"
+      url: "https://researchmap.jp/runan-yang"
 
-  # Social media
-  orcid            : "https://orcid.org/0000-0002-8081-8923"
-  
+  # University Website
+  links:
+    - label: "University Website (in Japanese)"
+      icon: "fas fa-link"
+      url: "https://researchers.ibaraki.ac.jp/search/detail.html?systemId=7ccf45af294677d7520e17560c007669&lang=ja&st=researcher"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -101,24 +99,6 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
 
 # Analytics
 analytics:
@@ -212,7 +192,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -230,7 +210,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -239,7 +219,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -248,7 +228,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -269,7 +249,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

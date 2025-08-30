@@ -1,9 +1,10 @@
 ---
 permalink: /
-layout: single           # 用通用的 single 布局最稳
 title: "Runan Yang"
 author_profile: true     # 左侧栏开启
-classes: wide            # （可选）更宽的正文区
+redirect_from:
+ -/about/
+ -/about.html
 ---
 
 {% include figure image_path="/images/newphoto_runanyang.jpg" alt="Runan Yang" width="220" align="right" %}

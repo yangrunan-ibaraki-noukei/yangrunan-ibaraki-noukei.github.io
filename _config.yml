@@ -7,6 +7,7 @@
 # server process.
 
 # Basic Site Settings
+logo                     : ""
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Runan Yang"
@@ -22,7 +23,7 @@ repository               : "yangrunan-ibaraki-noukei/yangrunan-ibaraki-noukei.gi
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/newphoto_runanyang.jpg"
+  avatar           : "newphoto_runanyang.jpg"
   name             : "Runan Yang"
   pronouns         : "Assistant Professor"  
   bio              : "Urban agriculture • Branding • Consumer behavior • Sustainability"
@@ -40,9 +41,7 @@ author:
     - label: "researchmap"
       icon: "fas fa-link"
       url: "https://researchmap.jp/runan-yang"
-
-  # University Website
-  links:
+      
     - label: "University Website (in Japanese)"
       icon: "fas fa-link"
       url: "https://researchers.ibaraki.ac.jp/search/detail.html?systemId=7ccf45af294677d7520e17560c007669&lang=ja&st=researcher"

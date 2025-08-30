@@ -1,9 +1,13 @@
 ---
-permalink: /
-layout: single           # 用通用的 single 布局最稳
+layout: about
 title: "Runan Yang"
-author_profile: true     # 左侧栏开启
-classes: wide            # （可选）更宽的正文区
+permalink: /
+author_profile: true
+subtitle: Ibaraki University
+profile:
+  align: right
+  image: /images/newphoto_runanyang.jpg
+  address: Ibaraki, Japan
 ---
 
 {% include figure image_path="/images/newphoto_runanyang.jpg" alt="Runan Yang" width="220" align="right" %}

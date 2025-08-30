@@ -1,14 +1,12 @@
 ---
 permalink: /
-layout: about
+layout: single           # 用通用的 single 布局最稳
 title: "Runan Yang"
-subtitle: Ibaraki University
-author_profile: true
-profile:
-  align: right
-  image: /images/newphoto_runanyang.jpg
-  address: Ibaraki, Japan
+author_profile: true     # 左侧栏开启
+classes: wide            # （可选）更宽的正文区
 ---
+
+{% include figure image_path="/images/newphoto_runanyang.jpg" alt="Runan Yang" width="220" align="right" %}
 
 I am a researcher focusing on **urban agriculture**, with interests in **branding**, **market orientation**, and **consumer behavior** in sustainable food systems. My work combines survey methods (Likert and **Best–Worst Scaling**), **structural equation modeling** (SEM), and discrete choice approaches to analyze how brand strategies and external information shape willingness-to-pay and farm performance.
 

@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Runan (楊) Yang"
 description              : "Urban agriculture • Branding • Consumer behavior • Sustainability"
 url                      : "https://yangrunan-ibaraki-noukei.github.io"
-baseurl                  : " "
+baseurl                  : ""
 repository               : "yangrunan-ibaraki-noukei/yangrunan-ibaraki-noukei.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

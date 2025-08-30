@@ -17,5 +17,3 @@ I am a researcher focusing on **urban agriculture**, with interests in **brandin
 **Keywords:** urban agriculture; branding & market orientation; consumer choice; spatial behavior; sustainability; SEM; BWS.  
 **Links:** [researchmap](https://researchmap.jp/runan-yang) · [ORCID](https://orcid.org/0000-0002-8081-8923) · [GitHub](https://github.com/yangrunan-ibaraki-noukei)  
 **Email:** runan.yang.gr42@vc.ibaraki.ac.jp
-
-**Email:** runan.yang.gr42@vc.ibaraki.ac.jp

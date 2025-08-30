@@ -22,7 +22,7 @@ repository               : "yangrunan-ibaraki-noukei/yangrunan-ibaraki-noukei.gi
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/newphoto_runanyang.jpg"
   name             : "Runan Yang"
   pronouns         : "Assistant Professor"  
   bio              : "Urban agriculture • Branding • Consumer behavior • Sustainability"
